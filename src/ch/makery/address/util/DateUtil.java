@@ -12,7 +12,7 @@ import java.time.format.DateTimeParseException;
 public class DateUtil {
 
     /** O padrão usado para conversão. Mude como quiser. */
-    private static final String DATE_PATTERN = "dd.MM.yyyy";
+    private static final String DATE_PATTERN = "dd/MM/yyyy";
 
     /** O formatador de data. */
     private static final DateTimeFormatter DATE_FORMATTER = 
